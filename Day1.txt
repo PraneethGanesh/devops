@@ -1,0 +1,33 @@
+What is Operating system - 
+the interface betting user and hardware
+what is cloud computing - 
+it is on demand delivery of IT services over the internet you can access technical resources such as storage , databases , compute , networking , security with pay-as-you-go
+cloud providers in market
+( AWS-amazon web services
+,Microsoft Azure 
+,Google cloud platform )
+what is SDLC
+Software development lifecycle is a stucture step-by-step process that the development team uses to create high-quality, cost-efficient and secure software
+DevOps
+integration, deployment and monitoring the software
+HTTP
+HTTPS
+1 ls: is a command to list files and directories(folder)
+2 touch: is a command to create empty files
+   ex: touch praneeth
+3 rm: is to a command to remove the files
+4 mkdir: is a command to create a directory
+5 cat > (filename): to write to the file
+6 cat (filename): to see the content in the file
+7 cd (filename): change directory
+8 rmdir: is a command to delete an empty directory 
+   ex: rmdir directory
+9 rm -r: is a command to delete directories with files
+10 ls -l: list the files and directories with permission
+11 pwd: print working directory/present 
+12 history
+Core DevOps principles 
+Automation of the software development lifecycle. This includes automating testing, builds, releases, the provisioning of development environments, and other manual tasks that can slow down or introduce human error into the software delivery process.
+Collaboration and communication. A good DevOps team has automation, but a great DevOps team also has effective collaboration and communication.
+Continuous improvement and minimization of waste. From automating repetitive tasks to watching performance metrics for ways to reduce release times or mean-time-to-recovery, high performing DevOps teams are regularly looking for areas that could be improved.
+Hyperfocus on user needs with short feedback loops. Through automation, improved communication and collaboration, and continuous improvement, DevOps teams can take a moment and focus on what real users really want, and how to give it to them.
