@@ -1,0 +1,23 @@
+files types
+-(regular file)
+d(directory)
+
+Linux file permission
+1.user
+2.group
+3.others
+
+3 command
+read:4
+write:2
+execute:1
+total:7
+
+
+-(regular file)
+rw-
+r--
+r--
+Docker is an open platform for developing, shipping and running applications. It has made life easier for developers and system administrators by simplifying the deployment of applications. Docker utilizes OS-level virtualization to deliver software in packages called containers.
+
+Docker containers are lightweight, standalone, executable packages of software that include everything required to run an application: code, runtime, dependencies, and config files. By containerizing applications, Docker has paved the way for improved collaboration between developers and IT operations teams. It has become essential for continuous integration and deployment (CI/CD) pipelines.

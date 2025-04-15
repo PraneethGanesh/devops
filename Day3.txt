@@ -1,0 +1,82 @@
+DevOps is important because it's a software development and operations approach that enables faster development of new products and 
+benefits 
+speed
+rapid delivery
+reliability
+improve collaborations
+Scaling
+
+elastic compute cloud-EC2
+
+Server
+a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network
+is a powerful computer or system that provide services or data to other computers known as clients, over the internet
+Servers are designed to manage, store and process data and they play a critical role in handling request, delivering responses within a network
+webserver
+deliver web pages to users browsers
+engine
+*fileserver 
+stores and manages files that clients can access that is share over a network
+*database server 
+manage the database and provide access to the client to read, write and update data
+eg MySQL, MongoDB
+mail server
+handles the sending, receiving and storage of exchanges
+eg microsoft exchange
+Server components
+op system
+ram
+cpu 
+storage
+nic
+network interface call
+
+1 Name of the server
+2 Application and os Images(AMI)
+	-os
+3 Instance type: choose the number of CPU and ram
+4 keypair: used to connect securely to an instance
+5 networking :
+	-firewalls
+	-VPC: virtual private cloud
+	-subnets
+	-route table
+	-NAT
+	-Internet gateway
+	-Elastic IPS
+6 configuration:
+	EBS(Elsatic Block store)
+	EBS is nothing but similar to hard disk
+	Persistent block level storage
+	can create new volume and attach to running instance
+7 Launch instance: web server/windows
+
+
+ 
+THREE tier Architecture 
+
+Load balancer -->to distribute the incoming application traffic to registered target called Server
+autoscaling -->automatically add or remove server based on traffic and defined policy 
+cloud watch alarm --> 
+SNS-simple notification service
+
+Horizontal Scaling
+Vertical Scaling
+
+load balancing
+*automatically distributed across multiple target
+*provide high availability
+*Incorporate secure feature
+*perform health check
+
+ELB load balancer types:
+application load balancer: http & https
+network load balancer: TCP & UPD
+gateway load balancer: IP
+load balancer
+
+Auto scaling
+*help you control EC2 instance available to handle the load for your application
+*Launch or terminate your AWS resource based on specific condition
+*register new instance with load balancer when specified
+

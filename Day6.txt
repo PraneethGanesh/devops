@@ -1,0 +1,43 @@
+Jenkins is an open source implementation of a CI server written in Java that
+can be used as a self-hosted option automating the build cycle for any
+project. It works with any programming language and for multiple platforms
+including Windows, Linux and macOS.
+One of the main benefits of Jenkins is that it is a well-known tool with lots of
+community support, there are many plugins available (including well-known
+names like Slack, GitHub, Docker, Build Pipeline + more), and the project is
+well-maintained by a large community of developers. 
+As your team considers options for continuous integration, it is helpful to
+note that Jenkins must be run on a server (cost), so it often needs the
+attention of someone with system administration skills (time). You can’t just
+set it up and then expect it to run itself–the system requires frequent updates
+and maintenance.
+Yet, Jenkins is open source and one of the best and most widely used free
+tools out there for implementing CI/CD for your devops team.
+The main barrier to entry for most teams is the initial setup, procrastination,
+or failed previous attempts to set it up.
+People tend to know it’s a best practice, but many teams neglect it for more
+urgent coding work. Perhaps someone on your team tried to implement
+Jenkins at some point, but did not successfully maintain it. Maybe the wasted
+effort gave your boss a bad impression about it. 
+One main reason: CI systems regularly break. If a setting in the project
+changes, often it is necessary to readjust the configuration of the CI system.
+If the CI system is not perceived as highly valuable by the team, they tend to
+leave it aside, broken, so it stops delivering value.
+Yet another reason for not using CI is that you need to write tests. Writing
+tests is something most developers want to do (i.e. a best practice), but they
+often don’t find the time to do. Understandably, coding the actual software is
+usually a higher priority for business than more administrative tasks.
+Also, tests break, meaning when the functionality under a test changes, it
+needs to be updated. If they’re not updated, they stop delivering value, as in
+the case above. You have to prioritize maintaining the infrastructure yourself
+or it will not work.
+In summary, it takes time to set up and a decent amount of ongoing
+work to keep it updated.
+Of course, there are hosted SaaS alternatives to Jenkins, which could be
+beneficial if you’re willing to pay a bit extra for someone else to maintain the
+software. Businesses tend to choose this option when they need a superior UI
+than what Jenkins offers. But a major benefit of self-hosting is that you have
+more control over your own data security.
+Implementing CI requires a cultural shift, especially from the management.
+They have to allow time for this “unproductive stuff” to be done, while some
+of other day to day tasks go on hold. 
